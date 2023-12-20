@@ -30,11 +30,31 @@ public class SC_TPSController : MonoBehaviour
     {
         if (characterController.isGrounded)
         {
-            // We are grounded, so recalculate move direction based on axes
+          
+
+            // ѕолучите направление движени€
+            Vector3 moveDirectionNormalized = moveDirection.normalized;
+
+            // ѕоверните модель в соответствии с направлением движени€
+            if (moveDirectionNormalized != Vector3.zero)
+            {
+                Quaternion toRotation = Quaternion.LookRotation(moveDirectionNormalized);
+                transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, Time.deltaTime * lookSpeed);
+            }
+
             Vector3 forward = transform.TransformDirection(Vector3.forward);
             Vector3 right = transform.TransformDirection(Vector3.right);
             float curSpeedX = canMove ? speed * Input.GetAxis("Vertical") : 0;
             float curSpeedY = canMove ? speed * Input.GetAxis("Horizontal") : 0;
+
+            // Check if Shift key is pressed
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                // Double the speed if Shift key is pressed
+                curSpeedX *= 2;
+                curSpeedY *= 2;
+            }
+
             moveDirection = (forward * curSpeedX) + (right * curSpeedY);
             animator.SetFloat("movementSpeed", Vector3.ClampMagnitude(moveDirection, 1).magnitude);
 
@@ -43,6 +63,8 @@ public class SC_TPSController : MonoBehaviour
                 moveDirection.y = jumpSpeed;
             }
         }
+
+
 
         // Apply gravity. Gravity is multiplied by deltaTime twice (once here, and once below
         // when the moveDirection is multiplied by deltaTime). This is because gravity should be applied

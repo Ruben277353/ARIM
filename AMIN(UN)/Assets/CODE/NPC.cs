@@ -1,41 +1,31 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
-    public float speed;
-
-    void Start()
-    {
-        speed = 2;
-    }
-    // left = x; back = z;
+    public Transform[] waypoints;
+    public float speed = 3f;
+    private int currentWaypointIndex = 0;
 
     void Update()
     {
-        if (transform.position.x < 115f)
+        if (waypoints.Length == 0)
         {
-            transform.Translate(Vector3.left * speed * Time.deltaTime);
-        }
-        else if (transform.position.z < 97f)
-        {
-            transform.Translate(Vector3.back * speed * Time.deltaTime);
-        }
-        else if (transform.position.x < -11f) 
-        {
-            transform.Translate(Vector3.left * speed * Time.deltaTime);
+            Debug.LogError("No waypoints assigned!");
+            return;
         }
 
+        Vector3 targetPosition = waypoints[currentWaypointIndex].position;
+        Vector3 moveDirection = (targetPosition - transform.position).normalized;
+        transform.Translate(moveDirection * speed * Time.deltaTime);
 
-        if (transform.position.x < 90f )
+        if (Vector3.Distance(transform.position, targetPosition) < 0.1f)
         {
-            speed = -speed;
+            SetNextWaypoint();
         }
+    }
 
-        if (transform.position.x > 115f && transform.position.z < 40f && transform.position.x > 11)
-        {
-            speed = 2;
-        }
+    void SetNextWaypoint()
+    {
+        currentWaypointIndex = (currentWaypointIndex + 1) % waypoints.Length;
     }
 }
