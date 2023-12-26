@@ -910,10 +910,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 1522603772}
+  - {fileID: 1566270460}
+  - {fileID: 506312404}
+  - {fileID: 1792830535}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &18940669
@@ -1110,6 +1110,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4 AIKA (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1220,7 +1224,7 @@ Transform:
   m_GameObject: {fileID: 27186287}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 29.714996, y: 31.0945, z: -1.0783386}
+  m_LocalPosition: {x: 29.714996, y: 30.56, z: -1.0783386}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1254,7 +1258,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 27186287}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1551,10 +1555,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 1584190054}
+  - {fileID: 94666571}
+  - {fileID: 41561574}
+  - {fileID: 1528217500}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &36302866
@@ -1706,10 +1710,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1472065541}
-  - {fileID: 1405571472}
+  - {fileID: 1954027400}
+  - {fileID: 652000106}
+  - {fileID: 538853419}
+  - {fileID: 269956503}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &40059146
@@ -1828,7 +1832,7 @@ Transform:
   m_GameObject: {fileID: 41561573}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -150.56201, y: 31.0945, z: 82.49979}
+  m_LocalPosition: {x: -150.56201, y: 30.56, z: 82.49979}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1862,7 +1866,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 41561573}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2658,6 +2662,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[7]
       value: 
       objectReference: {fileID: 2100000, guid: 0b6d655ebf27848479a4d69abecaeeeb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3350,6 +3358,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3 AIKA (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3394,7 +3406,7 @@ Transform:
   m_GameObject: {fileID: 93971025}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -46.955, y: 31.0945, z: -18.510223}
+  m_LocalPosition: {x: -46.955, y: 30.56, z: -18.510223}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3428,7 +3440,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93971025}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -3565,7 +3577,7 @@ Transform:
   m_GameObject: {fileID: 94666570}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -47.355003, y: 31.0945, z: 82.48978}
+  m_LocalPosition: {x: -47.355003, y: 30.56, z: 82.48978}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3599,7 +3611,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 94666570}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -3782,10 +3794,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 1522603772}
+  - {fileID: 1566270460}
+  - {fileID: 506312404}
+  - {fileID: 1792830535}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &101851771
@@ -4227,7 +4239,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 110803519}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -4279,7 +4291,7 @@ Transform:
   m_GameObject: {fileID: 110803519}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.289352, y: 31.0945, z: -0.6683655}
+  m_LocalPosition: {x: 13.289352, y: 30.56, z: -0.6683655}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4429,10 +4441,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
+  - {fileID: 1566270460}
+  - {fileID: 506312404}
+  - {fileID: 1792830535}
+  - {fileID: 1522603772}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &113189825
@@ -4834,6 +4846,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     - target: {fileID: 13700000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -5383,6 +5399,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     - target: {fileID: 13700000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -5608,6 +5628,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4 AIKA (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5671,6 +5695,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pico_chan_chr_pico_00 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 10038fdbf93c4dd43af9ce774d03a956, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6329,6 +6357,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3 AIKA (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6497,6 +6529,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     - target: {fileID: 13700000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -6658,10 +6694,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
+  - {fileID: 94666571}
+  - {fileID: 41561574}
+  - {fileID: 1528217500}
+  - {fileID: 1584190054}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &160258623 stripped
@@ -6721,6 +6757,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3 AIKA (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6784,6 +6824,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     - target: {fileID: 13700000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -7898,6 +7942,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pico_chan_chr_pico_00 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 10038fdbf93c4dd43af9ce774d03a956, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8103,10 +8151,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 1451971888}
+  - {fileID: 707807381}
+  - {fileID: 193918301}
+  - {fileID: 1104092255}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &182057951
@@ -8512,6 +8560,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2 AIKA (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8626,6 +8678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Akio Highschool Uniform (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8665,7 +8721,7 @@ Transform:
   m_GameObject: {fileID: 193918300}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30.110657, y: 31.0945, z: -17.900208}
+  m_LocalPosition: {x: -30.110657, y: 30.56, z: -17.900208}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8699,7 +8755,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 193918300}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -8794,6 +8850,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4 AIKA (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9457,10 +9517,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 1664968348}
+  - {fileID: 1295089153}
+  - {fileID: 1079329891}
+  - {fileID: 1013961331}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &211423581
@@ -10473,8 +10533,8 @@ MonoBehaviour:
   - {fileID: 1143081202}
   - {fileID: 1362127176}
   - {fileID: 110803523}
-  speed: 4
-  rotationSpeed: 5
+  speed: 2.5
+  rotationSpeed: 2.5
 --- !u!1 &226429323 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4, type: 3}
@@ -10638,7 +10698,7 @@ Transform:
   m_GameObject: {fileID: 228086983}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -90.58501, y: 31.0945, z: -18.500214}
+  m_LocalPosition: {x: -90.58501, y: 30.56, z: -18.500214}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10672,7 +10732,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 228086983}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -11732,10 +11792,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
+  - {fileID: 1672364714}
+  - {fileID: 262767519}
+  - {fileID: 2106663565}
+  - {fileID: 1163280314}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &244587742 stripped
@@ -11787,10 +11847,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 41561574}
+  - {fileID: 1528217500}
+  - {fileID: 1584190054}
+  - {fileID: 94666571}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &245911475 stripped
@@ -12763,6 +12823,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pico_chan_chr_pico_00
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 10038fdbf93c4dd43af9ce774d03a956, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12802,7 +12866,7 @@ Transform:
   m_GameObject: {fileID: 262767518}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 72.91235, y: 31.0945, z: 59.16913}
+  m_LocalPosition: {x: 72.91235, y: 30.56, z: 59.16913}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12836,7 +12900,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 262767518}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -13131,7 +13195,7 @@ Transform:
   m_GameObject: {fileID: 267408163}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 73.41501, y: 31.0945, z: -0.6683655}
+  m_LocalPosition: {x: 73.41501, y: 30.56, z: -0.6683655}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13165,7 +13229,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267408163}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -13443,7 +13507,7 @@ Transform:
   m_GameObject: {fileID: 269956502}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -47.184998, y: 31.0945, z: -0.6683655}
+  m_LocalPosition: {x: -47.184998, y: 30.56, z: -0.6683655}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13477,7 +13541,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 269956502}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -13812,10 +13876,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 243500692}
-  - {fileID: 1916579103}
+  - {fileID: 2106663565}
+  - {fileID: 1163280314}
+  - {fileID: 1672364714}
+  - {fileID: 262767519}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &280106088
@@ -14107,10 +14171,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
+  - {fileID: 1013961331}
+  - {fileID: 1664968348}
+  - {fileID: 1295089153}
+  - {fileID: 1079329891}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &283415553 stripped
@@ -15061,6 +15125,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Akio Highschool Uniform (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15124,6 +15192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4 AIKA (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15939,6 +16011,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4 AIKA (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15999,10 +16075,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 981689227}
+  - {fileID: 93971026}
+  - {fileID: 228086984}
+  - {fileID: 1260380891}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &321753741
@@ -16132,7 +16208,7 @@ Transform:
   m_GameObject: {fileID: 323461878}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 29.545013, y: 31.0945, z: -60.700195}
+  m_LocalPosition: {x: 29.545013, y: 30.56, z: -60.700195}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16166,7 +16242,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 323461878}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -17103,6 +17179,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[7]
       value: 
       objectReference: {fileID: 2100000, guid: 0b6d655ebf27848479a4d69abecaeeeb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18420,10 +18500,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 262767519}
+  - {fileID: 2106663565}
+  - {fileID: 1163280314}
+  - {fileID: 1672364714}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &378453885 stripped
@@ -19047,6 +19127,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pico_chan_chr_pico_00 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 10038fdbf93c4dd43af9ce774d03a956, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19181,10 +19265,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
+  - {fileID: 2106663565}
+  - {fileID: 1163280314}
+  - {fileID: 1672364714}
+  - {fileID: 262767519}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &410676080
@@ -20058,6 +20142,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pico_chan_chr_pico_00 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 10038fdbf93c4dd43af9ce774d03a956, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20247,10 +20335,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 267408164}
+  - {fileID: 486283099}
+  - {fileID: 904802293}
+  - {fileID: 27186288}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &447987170 stripped
@@ -20457,6 +20545,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Akio Highschool Uniform (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20719,6 +20811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Akio Highschool Uniform (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21091,6 +21187,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Akio Highschool Uniform (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21706,6 +21806,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[7]
       value: 
       objectReference: {fileID: 2100000, guid: 0b6d655ebf27848479a4d69abecaeeeb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21769,6 +21873,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4 AIKA (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21868,8 +21976,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 11.218782, y: 6.499003, z: 10.571993}
-  m_Center: {x: 0.000011920933, y: 3.2495005, z: 0.36200044}
+  m_Size: {x: 11.218782, y: 6.499003, z: 9.235246}
+  m_Center: {x: 0.000011933224, y: 3.2495005, z: -0.30637264}
 --- !u!1001 &480205685
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22067,7 +22175,7 @@ Transform:
   m_GameObject: {fileID: 486283098}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 73.64499, y: 31.0945, z: 41.811646}
+  m_LocalPosition: {x: 73.64499, y: 30.56, z: 41.811646}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22101,7 +22209,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 486283098}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -22201,6 +22309,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Akio Highschool Uniform (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22263,10 +22375,10 @@ MonoBehaviour:
   waypoints:
   - {fileID: 1244285540}
   - {fileID: 1143081202}
-  - {fileID: 1743403402}
-  - {fileID: 504893225}
-  speed: 4
-  rotationSpeed: 5
+  - {fileID: 1362127176}
+  - {fileID: 110803523}
+  speed: 2.5
+  rotationSpeed: 2.5
 --- !u!1 &493092984 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 22106dc63dce41746ad234a91af2d657, type: 3}
@@ -22880,8 +22992,8 @@ MonoBehaviour:
   - {fileID: 1244285540}
   - {fileID: 1143081202}
   - {fileID: 1362127176}
-  speed: 4
-  rotationSpeed: 5
+  speed: 2.5
+  rotationSpeed: 2.5
 --- !u!143 &504893223
 CharacterController:
   m_ObjectHideFlags: 0
@@ -22913,6 +23025,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
   m_PrefabInstance: {fileID: 1744623565}
   m_PrefabAsset: {fileID: 0}
+--- !u!111 &504893226
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504893219}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 1695192892109923712, guid: 99f1663f1bb6db14f8530a4d568e0d88, type: 3}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &506312403
 GameObject:
   m_ObjectHideFlags: 0
@@ -22941,7 +23068,7 @@ Transform:
   m_GameObject: {fileID: 506312403}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -150.085, y: 31.0945, z: 41.821655}
+  m_LocalPosition: {x: -150.085, y: 30.56, z: 41.821655}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22975,7 +23102,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 506312403}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -23457,10 +23584,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
+  - {fileID: 27186288}
+  - {fileID: 267408164}
+  - {fileID: 486283099}
+  - {fileID: 904802293}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &513497878
@@ -25012,6 +25139,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pico_chan_chr_pico_00 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 10038fdbf93c4dd43af9ce774d03a956, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25187,7 +25318,7 @@ Transform:
   m_GameObject: {fileID: 538853418}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -90.884995, y: 31.0945, z: -1.0783386}
+  m_LocalPosition: {x: -90.884995, y: 30.56, z: -1.0783386}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25221,7 +25352,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538853418}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -25742,10 +25873,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 904802293}
+  - {fileID: 27186288}
+  - {fileID: 267408164}
+  - {fileID: 486283099}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &542729045 stripped
@@ -26054,6 +26185,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Akio Highschool Uniform (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27155,10 +27290,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 1522603772}
+  - {fileID: 1566270460}
+  - {fileID: 506312404}
+  - {fileID: 1792830535}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &565052684 stripped
@@ -27357,10 +27492,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 1451971888}
+  - {fileID: 707807381}
+  - {fileID: 193918301}
+  - {fileID: 1104092255}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &571977790 stripped
@@ -27870,7 +28005,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.43499997, y: 1.0203788, z: 0.43500006}
   m_Center: {x: 0.000000014901161, y: 0.51019037, z: 0.000030443072}
@@ -28677,10 +28812,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 193918301}
+  - {fileID: 1104092255}
+  - {fileID: 1451971888}
+  - {fileID: 707807381}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &602823727 stripped
@@ -29121,10 +29256,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
+  - {fileID: 1295089153}
+  - {fileID: 1079329891}
+  - {fileID: 1013961331}
+  - {fileID: 1664968348}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &607182905
@@ -29682,10 +29817,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
+  - {fileID: 1260380891}
+  - {fileID: 981689227}
+  - {fileID: 93971026}
+  - {fileID: 228086984}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &608903639
@@ -29716,7 +29851,7 @@ Transform:
   m_GameObject: {fileID: 608903639}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 73.244995, y: 31.0945, z: -60.290222}
+  m_LocalPosition: {x: 73.244995, y: 30.56, z: -60.290222}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29750,7 +29885,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 608903639}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -30800,8 +30935,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 7.3578935, y: 10.411013, z: 7.4074726}
-  m_Center: {x: -0.022552729, y: 5.205495, z: 0.28391635}
+  m_Size: {x: 7.3578935, y: 10.411013, z: 6.1052446}
+  m_Center: {x: -0.022552729, y: 5.205495, z: -0.36719763}
 --- !u!1 &629488308 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 653e28c8a1ae11240a6cdaac2f9ee8ea, type: 3}
@@ -30928,6 +31063,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2 AIKA (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31273,8 +31412,8 @@ MonoBehaviour:
   - {fileID: 1362127176}
   - {fileID: 110803523}
   - {fileID: 1244285540}
-  speed: 4
-  rotationSpeed: 5
+  speed: 2.5
+  rotationSpeed: 2.5
 --- !u!1001 &644316236
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31327,6 +31466,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2 AIKA (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31471,6 +31614,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Akio Highschool Uniform (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31785,7 +31932,7 @@ Transform:
   m_GameObject: {fileID: 652000105}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -90.58501, y: 31.0945, z: 41.821655}
+  m_LocalPosition: {x: -90.58501, y: 30.56, z: 41.821655}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -31819,7 +31966,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 652000105}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -32002,6 +32149,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     - target: {fileID: 13700000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -32170,6 +32321,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[7]
       value: 
       objectReference: {fileID: 2100000, guid: 0b6d655ebf27848479a4d69abecaeeeb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32500,10 +32655,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 778726392}
-  - {fileID: 570559881}
+  - {fileID: 707807381}
+  - {fileID: 193918301}
+  - {fileID: 1104092255}
+  - {fileID: 1451971888}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &661786880
@@ -32558,6 +32713,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     - target: {fileID: 13700000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -33082,10 +33241,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
+  - {fileID: 707807381}
+  - {fileID: 193918301}
+  - {fileID: 1104092255}
+  - {fileID: 1451971888}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &669992216
@@ -33315,6 +33474,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Akio Highschool Uniform (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33809,10 +33972,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 267408164}
+  - {fileID: 486283099}
+  - {fileID: 904802293}
+  - {fileID: 27186288}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &679474698
@@ -34265,10 +34428,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 193918301}
+  - {fileID: 1104092255}
+  - {fileID: 1451971888}
+  - {fileID: 707807381}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &685181752 stripped
@@ -34722,10 +34885,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
+  - {fileID: 1528217500}
+  - {fileID: 1584190054}
+  - {fileID: 94666571}
+  - {fileID: 41561574}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &703950762
@@ -35109,7 +35272,7 @@ Transform:
   m_GameObject: {fileID: 707807380}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.519348, y: 31.0945, z: -17.910217}
+  m_LocalPosition: {x: 13.519348, y: 30.56, z: -17.910217}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -35143,7 +35306,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 707807380}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -35717,6 +35880,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Akio Highschool Uniform (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36567,6 +36734,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pico_chan_chr_pico_00 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 10038fdbf93c4dd43af9ce774d03a956, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36607,8 +36778,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 12.03923, y: 8.357073, z: 12.035597}
-  m_Center: {x: 0.5025338, y: 4.1785803, z: 0.5064606}
+  m_Size: {x: 11.193692, y: 8.357073, z: 11.139894}
+  m_Center: {x: 0.07976531, y: 4.1785803, z: 0.05860926}
 --- !u!1 &734376997 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b8ee657c6800ab849bb30b4375d02323, type: 3}
@@ -38276,10 +38447,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
+  - {fileID: 1104092255}
+  - {fileID: 1451971888}
+  - {fileID: 707807381}
+  - {fileID: 193918301}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &780646642
@@ -38596,6 +38767,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     - target: {fileID: 13700000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -39946,6 +40121,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     - target: {fileID: 13700000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -41260,6 +41439,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[7]
       value: 
       objectReference: {fileID: 2100000, guid: 0b6d655ebf27848479a4d69abecaeeeb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -41842,10 +42025,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 932962996}
-  - {fileID: 564743986}
+  - {fileID: 1566270460}
+  - {fileID: 506312404}
+  - {fileID: 1792830535}
+  - {fileID: 1522603772}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &837152581 stripped
@@ -42266,8 +42449,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 12.999999, y: 16.928885, z: 13.065446}
-  m_Center: {x: 0.000039577484, y: 8.464442, z: 0.47563595}
+  m_Size: {x: 13.000032, y: 16.928885, z: 10.996808}
+  m_Center: {x: 0.0000395999, y: 8.464442, z: -0.5586829}
 --- !u!1001 &846547739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42669,11 +42852,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1923701770045679413, guid: 8bf27f8a5975e1f4e9160e979cfcb02b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.015000001
+      value: 0.025
       objectReference: {fileID: 0}
     - target: {fileID: 1923701770045679413, guid: 8bf27f8a5975e1f4e9160e979cfcb02b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.022499999
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 1923701770045679413, guid: 8bf27f8a5975e1f4e9160e979cfcb02b, type: 3}
       propertyPath: m_LocalScale.z
@@ -43076,10 +43259,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 506312404}
+  - {fileID: 1792830535}
+  - {fileID: 1522603772}
+  - {fileID: 1566270460}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &859130597
@@ -44893,6 +45076,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2 AIKA (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -45308,7 +45495,7 @@ Transform:
   m_GameObject: {fileID: 904802292}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30.014984, y: 31.0945, z: 41.821655}
+  m_LocalPosition: {x: 30.014984, y: 30.56, z: 41.821655}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -45342,7 +45529,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 904802292}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -46446,6 +46633,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     - target: {fileID: 13700000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -46602,10 +46793,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 267408164}
+  - {fileID: 486283099}
+  - {fileID: 904802293}
+  - {fileID: 27186288}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &928407177 stripped
@@ -46844,10 +47035,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
+  - {fileID: 1792830535}
+  - {fileID: 1522603772}
+  - {fileID: 1566270460}
+  - {fileID: 506312404}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &934622339
@@ -46878,7 +47069,7 @@ Transform:
   m_GameObject: {fileID: 934622339}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 73.475006, y: 31.0945, z: -17.810211}
+  m_LocalPosition: {x: 73.475006, y: 30.56, z: -17.810211}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -46912,7 +47103,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 934622339}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -47865,8 +48056,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 14.971008, y: 7.7953634, z: 13.567871}
-  m_Center: {x: -0.69062805, y: 3.8976827, z: 0.078517675}
+  m_Size: {x: 14.971008, y: 7.7953634, z: 11.923771}
+  m_Center: {x: -0.69062805, y: 3.8976827, z: -0.7435322}
 --- !u!1 &950110877
 GameObject:
   m_ObjectHideFlags: 0
@@ -48630,10 +48821,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 193918301}
+  - {fileID: 1104092255}
+  - {fileID: 1451971888}
+  - {fileID: 707807381}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &952117931
@@ -48967,6 +49158,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3 AIKA (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -49672,7 +49867,7 @@ Transform:
   m_GameObject: {fileID: 981689226}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -47.184998, y: 31.0945, z: -60.990204}
+  m_LocalPosition: {x: -47.184998, y: 30.56, z: -60.990204}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -49706,7 +49901,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981689226}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -49901,6 +50096,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     - target: {fileID: 13700000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -50558,7 +50757,7 @@ Transform:
   m_GameObject: {fileID: 991640802}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 29.845001, y: 31.0945, z: -17.800201}
+  m_LocalPosition: {x: 29.845001, y: 30.56, z: -17.800201}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -50592,7 +50791,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 991640802}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -51442,7 +51641,7 @@ Transform:
   m_GameObject: {fileID: 1013961330}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -150.58499, y: 31.0945, z: -61.500214}
+  m_LocalPosition: {x: -150.58499, y: 30.56, z: -61.500214}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -51476,7 +51675,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1013961330}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -51543,8 +51742,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 16.229427, y: 19.239717, z: 12.664908}
-  m_Center: {x: -0.00013637543, y: 9.619859, z: 0.05761814}
+  m_Size: {x: 16.229427, y: 19.239717, z: 10.896495}
+  m_Center: {x: -0.00013623873, y: 9.619859, z: -0.82658863}
 --- !u!1001 &1015944709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51767,10 +51966,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 652000106}
+  - {fileID: 538853419}
+  - {fileID: 269956503}
+  - {fileID: 1954027400}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1022631322 stripped
@@ -52203,8 +52402,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 17.255001, y: 9.610818, z: 14.407763}
-  m_Center: {x: -0.07696676, y: 4.7428584, z: -0.17985702}
+  m_Size: {x: 17.255001, y: 9.610818, z: 13.966014}
+  m_Center: {x: -0.07696724, y: 4.7428584, z: -0.40073156}
 --- !u!1 &1035626700 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b8ee657c6800ab849bb30b4375d02323, type: 3}
@@ -52283,6 +52482,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Akio Highschool Uniform (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -53586,7 +53789,7 @@ Transform:
   m_GameObject: {fileID: 1079329890}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -150.285, y: 31.0945, z: -18.60019}
+  m_LocalPosition: {x: -150.285, y: 30.56, z: -18.60019}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -53620,7 +53823,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1079329890}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -54259,6 +54462,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     - target: {fileID: 13700000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -55487,7 +55694,7 @@ Transform:
   m_GameObject: {fileID: 1104092254}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30.410645, y: 31.0945, z: -60.8002}
+  m_LocalPosition: {x: -30.410645, y: 30.56, z: -60.8002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -55521,7 +55728,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1104092254}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -55616,6 +55823,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     - target: {fileID: 13700000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -56075,6 +56286,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     - target: {fileID: 13700000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -56332,6 +56547,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pico_chan_chr_pico_00 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 10038fdbf93c4dd43af9ce774d03a956, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -56395,6 +56614,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pico_chan_chr_pico_00 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 10038fdbf93c4dd43af9ce774d03a956, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -56862,8 +57085,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 16.229424, y: 19.239717, z: 12.6649065}
-  m_Center: {x: -0.00010585782, y: 9.619859, z: 0.05764865}
+  m_Size: {x: 16.229424, y: 19.239717, z: 11.0182705}
+  m_Center: {x: -0.00010582711, y: 9.619859, z: -0.7656694}
 --- !u!1001 &1129866895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56916,6 +57139,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pico_chan_chr_pico_00 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 10038fdbf93c4dd43af9ce774d03a956, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -56979,6 +57206,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Akio Highschool Uniform (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -57322,7 +57553,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.43499997, y: 1.0203788, z: 0.43500006}
   m_Center: {x: 0.000000014901161, y: 0.51019037, z: 0.000030443072}
@@ -57401,10 +57632,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 41561574}
+  - {fileID: 1528217500}
+  - {fileID: 1584190054}
+  - {fileID: 94666571}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &1139236665
@@ -57830,7 +58061,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1143081198}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -57882,7 +58113,7 @@ Transform:
   m_GameObject: {fileID: 1143081198}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30.110657, y: 31.0945, z: 41.821655}
+  m_LocalPosition: {x: -30.110657, y: 30.56, z: 41.821655}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -58069,6 +58300,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Akio Highschool Uniform (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -58132,6 +58367,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     - target: {fileID: 13700000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -58526,6 +58765,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Akio Highschool Uniform (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -58626,7 +58869,7 @@ Transform:
   m_GameObject: {fileID: 1163280313}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30.110657, y: 31.0945, z: 82.1998}
+  m_LocalPosition: {x: -30.110657, y: 30.56, z: 82.1998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -58660,7 +58903,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1163280313}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -58842,10 +59085,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 262767519}
+  - {fileID: 2106663565}
+  - {fileID: 1163280314}
+  - {fileID: 1672364714}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1165625853 stripped
@@ -59399,7 +59642,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.43499997, y: 1.0203788, z: 0.43500006}
   m_Center: {x: -0.0000076144934, y: 0.51019037, z: 0.000030443072}
@@ -60055,10 +60298,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 506312404}
+  - {fileID: 1792830535}
+  - {fileID: 1522603772}
+  - {fileID: 1566270460}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1184252078
@@ -60378,10 +60621,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 1664968348}
+  - {fileID: 1295089153}
+  - {fileID: 1079329891}
+  - {fileID: 1013961331}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &1191222401
@@ -61249,10 +61492,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 981689227}
+  - {fileID: 93971026}
+  - {fileID: 228086984}
+  - {fileID: 1260380891}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &1207958615
@@ -61307,6 +61550,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4 AIKA (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -61396,6 +61643,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4 AIKA (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -61525,10 +61776,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
+  - {fileID: 1104092255}
+  - {fileID: 1451971888}
+  - {fileID: 707807381}
+  - {fileID: 193918301}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &1217055786
@@ -61723,6 +61974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Akio Highschool Uniform (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -62447,7 +62702,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1244285536}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -62499,7 +62754,7 @@ Transform:
   m_GameObject: {fileID: 1244285536}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.519348, y: 31.0945, z: 41.811646}
+  m_LocalPosition: {x: 13.519348, y: 30.56, z: 41.811646}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -62624,8 +62879,8 @@ MonoBehaviour:
   - {fileID: 110803523}
   - {fileID: 1244285540}
   - {fileID: 1143081202}
-  speed: 4
-  rotationSpeed: 5
+  speed: 2.5
+  rotationSpeed: 2.5
 --- !u!1001 &1246457708
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63002,8 +63257,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 7.3578935, y: 10.411013, z: 7.4074726}
-  m_Center: {x: -0.0225451, y: 5.2054796, z: 0.28385532}
+  m_Size: {x: 7.3578935, y: 10.411013, z: 6.034425}
+  m_Center: {x: -0.022545032, y: 5.2054796, z: -0.40266836}
 --- !u!1 &1252229080 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4, type: 3}
@@ -63402,7 +63657,7 @@ Transform:
   m_GameObject: {fileID: 1260380890}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -90.884995, y: 31.0945, z: -61.400177}
+  m_LocalPosition: {x: -90.884995, y: 30.56, z: -61.400177}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -63436,7 +63691,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1260380890}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -64565,10 +64820,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
+  - {fileID: 93971026}
+  - {fileID: 228086984}
+  - {fileID: 1260380891}
+  - {fileID: 981689227}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &1280264571
@@ -65365,6 +65620,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Akio Highschool Uniform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -65400,8 +65659,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 7.357892, y: 10.411013, z: 7.4074717}
-  m_Center: {x: -0.022575613, y: 5.205495, z: 0.2838858}
+  m_Size: {x: 7.1632442, y: 10.411013, z: 5.8854227}
+  m_Center: {x: 0.074756004, y: 5.205495, z: -0.47713828}
 --- !u!1 &1294410244 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100326, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
@@ -65451,10 +65710,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 1079329891}
+  - {fileID: 1013961331}
+  - {fileID: 1664968348}
+  - {fileID: 1295089153}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1295089152
@@ -65485,7 +65744,7 @@ Transform:
   m_GameObject: {fileID: 1295089152}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -106.655, y: 31.0945, z: -18.610199}
+  m_LocalPosition: {x: -106.655, y: 30.56, z: -18.610199}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -65519,7 +65778,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1295089152}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -66765,6 +67024,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pico_chan_chr_pico_00 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 10038fdbf93c4dd43af9ce774d03a956, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -67089,10 +67352,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
+  - {fileID: 1672364714}
+  - {fileID: 262767519}
+  - {fileID: 2106663565}
+  - {fileID: 1163280314}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1315572179 stripped
@@ -67371,10 +67634,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 904802293}
+  - {fileID: 27186288}
+  - {fileID: 267408164}
+  - {fileID: 486283099}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &1324417907
@@ -67759,7 +68022,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.43499997, y: 1.0203788, z: 0.43500006}
   m_Center: {x: 0.000000014901161, y: 0.51019037, z: 0.000030443072}
@@ -67787,8 +68050,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 0
   serializedVersion: 3
-  m_Size: {x: 2.5291188, y: 6.427493, z: 0.6}
-  m_Center: {x: 1.004738, y: 3.2137442, z: -0.0012345165}
+  m_Size: {x: 0.6393783, y: 6.427493, z: 0.6}
+  m_Center: {x: 0.05986774, y: 3.2137442, z: -0.0012344188}
 --- !u!1001 &1330510091
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68475,6 +68738,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4 AIKA
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -68800,6 +69067,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pico_chan_chr_pico_00 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 10038fdbf93c4dd43af9ce774d03a956, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -68957,10 +69228,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 981689227}
+  - {fileID: 93971026}
+  - {fileID: 228086984}
+  - {fileID: 1260380891}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1349180098 stripped
@@ -69382,10 +69653,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 1664968348}
+  - {fileID: 1295089153}
+  - {fileID: 1079329891}
+  - {fileID: 1013961331}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1362127172
@@ -69435,7 +69706,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1362127172}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -69487,7 +69758,7 @@ Transform:
   m_GameObject: {fileID: 1362127172}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30.410645, y: 31.0945, z: -1.0783386}
+  m_LocalPosition: {x: -30.410645, y: 30.56, z: -1.0783386}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -69616,6 +69887,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3 AIKA (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -69683,6 +69958,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[7]
       value: 
       objectReference: {fileID: 2100000, guid: 0b6d655ebf27848479a4d69abecaeeeb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -70150,6 +70429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pico_chan_chr_pico_00 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 10038fdbf93c4dd43af9ce774d03a956, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -70553,7 +70836,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.43499997, y: 1.0203788, z: 0.43500006}
   m_Center: {x: 0.000000014901161, y: 0.51019037, z: 0.00006096065}
@@ -71103,6 +71386,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     - target: {fileID: 13700000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -71388,8 +71675,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 0
   serializedVersion: 3
-  m_Size: {x: 2.5291183, y: 6.427493, z: 0.59999996}
-  m_Center: {x: 1.0047072, y: 3.2137442, z: -0.0012039988}
+  m_Size: {x: 0.6183649, y: 6.427493, z: 0.59999996}
+  m_Center: {x: 0.04933053, y: 3.2137442, z: -0.0012040705}
 --- !u!1 &1405571471 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
@@ -71439,10 +71726,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 269956503}
+  - {fileID: 1954027400}
+  - {fileID: 652000106}
+  - {fileID: 538853419}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1407944335
@@ -71568,6 +71855,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3 AIKA (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -72466,10 +72757,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
+  - {fileID: 1954027400}
+  - {fileID: 652000106}
+  - {fileID: 538853419}
+  - {fileID: 269956503}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1425633739
@@ -72939,6 +73230,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2 AIKA (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -73034,10 +73329,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 228086984}
+  - {fileID: 1260380891}
+  - {fileID: 981689227}
+  - {fileID: 93971026}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1433580822 stripped
@@ -73093,8 +73388,8 @@ MonoBehaviour:
   - {fileID: 1244285540}
   - {fileID: 1143081202}
   - {fileID: 1362127176}
-  speed: 4
-  rotationSpeed: 5
+  speed: 2.5
+  rotationSpeed: 2.5
 --- !u!1001 &1434551032
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73985,10 +74280,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 904802293}
+  - {fileID: 27186288}
+  - {fileID: 267408164}
+  - {fileID: 486283099}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &1450643291
@@ -74114,7 +74409,7 @@ Transform:
   m_GameObject: {fileID: 1451971887}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.289352, y: 31.0945, z: -60.39023}
+  m_LocalPosition: {x: 13.289352, y: 30.56, z: -60.39023}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -74148,7 +74443,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1451971887}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -74653,8 +74948,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 13.000001, y: 16.928885, z: 13.065448}
-  m_Center: {x: 0.0000014305115, y: 8.464442, z: 0.47566652}
+  m_Size: {x: 13.000001, y: 16.928885, z: 11.001362}
+  m_Center: {x: 0.0000014305115, y: 8.464442, z: -0.5563762}
 --- !u!1 &1456114885 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: c3e95e72d6dba334594c3c5c37fcf18a, type: 3}
@@ -74772,7 +75067,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.43499997, y: 1.0203788, z: 0.43500006}
   m_Center: {x: -0.0000076144934, y: 0.51019037, z: 0.000030443072}
@@ -74928,10 +75223,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 269956503}
+  - {fileID: 1954027400}
+  - {fileID: 652000106}
+  - {fileID: 538853419}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1470963946 stripped
@@ -75178,10 +75473,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
+  - {fileID: 538853419}
+  - {fileID: 269956503}
+  - {fileID: 1954027400}
+  - {fileID: 652000106}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1472119078 stripped
@@ -75371,10 +75666,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 652000106}
+  - {fileID: 538853419}
+  - {fileID: 269956503}
+  - {fileID: 1954027400}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1477563552 stripped
@@ -75399,7 +75694,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.43499997, y: 1.0203788, z: 0.43500006}
   m_Center: {x: 0.000000014901161, y: 0.51019037, z: 0.000030443072}
@@ -75456,8 +75751,8 @@ MonoBehaviour:
   - {fileID: 1362127176}
   - {fileID: 110803523}
   - {fileID: 1244285540}
-  speed: 4
-  rotationSpeed: 5
+  speed: 2.5
+  rotationSpeed: 2.5
 --- !u!1001 &1479329886
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75602,10 +75897,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
+  - {fileID: 486283099}
+  - {fileID: 904802293}
+  - {fileID: 27186288}
+  - {fileID: 267408164}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &1479789763
@@ -76239,8 +76534,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 13.589754, y: 8.480352, z: 11.275148}
-  m_Center: {x: 0.00055003166, y: 4.240176, z: 0.27839112}
+  m_Size: {x: 13.589754, y: 8.480352, z: 10.074486}
+  m_Center: {x: 0.00055032334, y: 4.240176, z: -0.32194042}
 --- !u!1001 &1488860658
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76293,6 +76588,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Akio Highschool Uniform (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -76353,10 +76652,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 1079329891}
+  - {fileID: 1013961331}
+  - {fileID: 1664968348}
+  - {fileID: 1295089153}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1490601138 stripped
@@ -76555,6 +76854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Akio Highschool Uniform (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -76683,7 +76986,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.43499997, y: 1.0203788, z: 0.43500006}
   m_Center: {x: 0.000000014901161, y: 0.51019037, z: 0.000030443072}
@@ -77559,8 +77862,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 11.218783, y: 9.757901, z: 10.353148}
-  m_Center: {x: 0.034813397, y: 4.878778, z: -0.19550058}
+  m_Size: {x: 11.218783, y: 9.757901, z: 8.899913}
+  m_Center: {x: 0.034813367, y: 4.878778, z: -0.9221181}
 --- !u!1001 &1518999817
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77972,7 +78275,7 @@ Transform:
   m_GameObject: {fileID: 1522603771}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -106.685, y: 31.0945, z: -0.6683655}
+  m_LocalPosition: {x: -106.685, y: 30.56, z: -0.6683655}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -78006,7 +78309,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1522603771}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -78134,10 +78437,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 1163280314}
+  - {fileID: 1672364714}
+  - {fileID: 262767519}
+  - {fileID: 2106663565}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &1528013865
@@ -78263,7 +78566,7 @@ Transform:
   m_GameObject: {fileID: 1528217499}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -150.262, y: 31.0945, z: 59.36914}
+  m_LocalPosition: {x: -150.262, y: 30.56, z: 59.36914}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -78297,7 +78600,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528217499}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -78458,6 +78761,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     - target: {fileID: 13700000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -80191,8 +80498,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 7.3578935, y: 10.411013, z: 7.4074726}
-  m_Center: {x: -0.022543192, y: 5.205495, z: 0.28385532}
+  m_Size: {x: 7.3578935, y: 10.411013, z: 6.115093}
+  m_Center: {x: -0.02254313, y: 5.205495, z: -0.36233437}
 --- !u!4 &1547983204 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 878ec80c9e93bb043b61b4692c6c4bb4, type: 3}
@@ -80560,6 +80867,88 @@ Transform:
   m_Children: []
   m_Father: {fileID: 753298783}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1554101099
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 4990ae0b2256fe5428e4841ac73d763f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 150.04
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4990ae0b2256fe5428e4841ac73d763f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.12970638
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4990ae0b2256fe5428e4841ac73d763f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 428.25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4990ae0b2256fe5428e4841ac73d763f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4990ae0b2256fe5428e4841ac73d763f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4990ae0b2256fe5428e4841ac73d763f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4990ae0b2256fe5428e4841ac73d763f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4990ae0b2256fe5428e4841ac73d763f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4990ae0b2256fe5428e4841ac73d763f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4990ae0b2256fe5428e4841ac73d763f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4990ae0b2256fe5428e4841ac73d763f, type: 3}
+      propertyPath: m_Name
+      value: Kiki-v2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4214107822023767584, guid: 4990ae0b2256fe5428e4841ac73d763f, type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4214107822023767584, guid: 4990ae0b2256fe5428e4841ac73d763f, type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: 1.0937636
+      objectReference: {fileID: 0}
+    - target: {fileID: 4214107822023767584, guid: 4990ae0b2256fe5428e4841ac73d763f, type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: 0.01542069
+      objectReference: {fileID: 0}
+    - target: {fileID: 4214107822023767584, guid: 4990ae0b2256fe5428e4841ac73d763f, type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.13545744
+      objectReference: {fileID: 0}
+    - target: {fileID: 4214107822023767584, guid: 4990ae0b2256fe5428e4841ac73d763f, type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.12296185
+      objectReference: {fileID: 0}
+    - target: {fileID: 4214107822023767584, guid: 4990ae0b2256fe5428e4841ac73d763f, type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.117017046
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: -5958323217743847006, guid: 4990ae0b2256fe5428e4841ac73d763f, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4990ae0b2256fe5428e4841ac73d763f, type: 3}
 --- !u!1001 &1556445158
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -81179,6 +81568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pico_chan_chr_pico_00 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 10038fdbf93c4dd43af9ce774d03a956, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -81384,7 +81777,7 @@ Transform:
   m_GameObject: {fileID: 1566270459}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -106.455, y: 31.0945, z: 41.811646}
+  m_LocalPosition: {x: -106.455, y: 30.56, z: 41.811646}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -81418,7 +81811,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1566270459}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -82098,10 +82491,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 512879966}
-  - {fileID: 927894845}
+  - {fileID: 486283099}
+  - {fileID: 904802293}
+  - {fileID: 27186288}
+  - {fileID: 267408164}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &1582817898
@@ -82258,7 +82651,7 @@ Transform:
   m_GameObject: {fileID: 1584190053}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -47.585, y: 31.0945, z: 59.269135}
+  m_LocalPosition: {x: -47.585, y: 30.56, z: 59.269135}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -82292,7 +82685,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584190053}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -82509,10 +82902,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
+  - {fileID: 1792830535}
+  - {fileID: 1522603772}
+  - {fileID: 1566270460}
+  - {fileID: 506312404}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &1592889045
@@ -82599,8 +82992,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 12.126186, y: 11.605602, z: 12.155823}
-  m_Center: {x: 0.1345768, y: 5.802828, z: 0.08929324}
+  m_Size: {x: 11.248777, y: 11.605602, z: 11.250851}
+  m_Center: {x: -0.30412763, y: 5.802828, z: -0.36319277}
 --- !u!1 &1594922384 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7093956302372353312, guid: 7c409161b16cf0a42807e15841324a0e, type: 3}
@@ -82925,6 +83318,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pico_chan_chr_pico_00 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 10038fdbf93c4dd43af9ce774d03a956, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -82985,10 +83382,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
+  - {fileID: 1528217500}
+  - {fileID: 1584190054}
+  - {fileID: 94666571}
+  - {fileID: 41561574}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &1603941642
@@ -83502,10 +83899,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
+  - {fileID: 1260380891}
+  - {fileID: 981689227}
+  - {fileID: 93971026}
+  - {fileID: 228086984}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &1619549197
@@ -83681,6 +84078,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pico_chan_chr_pico_00 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 10038fdbf93c4dd43af9ce774d03a956, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -83895,6 +84296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pico_chan_chr_pico_00 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 10038fdbf93c4dd43af9ce774d03a956, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -83999,7 +84404,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.43499997, y: 1.0203788, z: 0.43500006}
   m_Center: {x: 0.000000014901161, y: 0.51019037, z: 0.000030443072}
@@ -84489,10 +84894,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 1451971888}
+  - {fileID: 707807381}
+  - {fileID: 193918301}
+  - {fileID: 1104092255}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1640353839
@@ -85228,10 +85633,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 41561574}
+  - {fileID: 1528217500}
+  - {fileID: 1584190054}
+  - {fileID: 94666571}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &1652590391
@@ -85286,6 +85691,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Akio Highschool Uniform
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -85995,6 +86404,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Akio Highschool Uniform (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -86186,7 +86599,7 @@ Transform:
   m_GameObject: {fileID: 1664968347}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -106.884995, y: 31.0945, z: -61.09024}
+  m_LocalPosition: {x: -106.884995, y: 30.56, z: -61.09024}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -86220,7 +86633,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664968347}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -86381,6 +86794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2 AIKA (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -86576,7 +86993,7 @@ Transform:
   m_GameObject: {fileID: 1672364713}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30.410645, y: 31.0945, z: 59.069153}
+  m_LocalPosition: {x: -30.410645, y: 30.56, z: 59.069153}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -86610,7 +87027,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1672364713}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -87563,10 +87980,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 228086984}
+  - {fileID: 1260380891}
+  - {fileID: 981689227}
+  - {fileID: 93971026}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &1692083559
@@ -88075,6 +88492,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Akio Highschool Uniform
       objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 96437ec785fb8c44f862f1db97b40588, type: 2}
     - target: {fileID: 5866666021909216657, guid: 75916f735b2fe014e9dfa3b043e648d1, type: 3}
       propertyPath: m_Controller
       value: 
@@ -88240,6 +88661,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pico_chan_chr_pico_00 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 10038fdbf93c4dd43af9ce774d03a956, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -88616,8 +89041,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 14.971008, y: 7.7953634, z: 13.567871}
-  m_Center: {x: -0.69062805, y: 3.8976827, z: 0.07845664}
+  m_Size: {x: 13.439014, y: 7.7953634, z: 12.063824}
+  m_Center: {x: 0.07536923, y: 3.8976827, z: -0.6735668}
 --- !u!1001 &1710376217
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -88706,7 +89131,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.43499997, y: 1.0203788, z: 0.43500006}
   m_Center: {x: 0.000000014901161, y: 0.51019037, z: 0.000030443072}
@@ -89017,7 +89442,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.43499997, y: 1.0203788, z: 0.43500006}
   m_Center: {x: 0.000000014901161, y: 0.51019037, z: 0.000030443072}
@@ -89109,8 +89534,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 7.3578935, y: 10.411013, z: 7.4074726}
-  m_Center: {x: -0.0225451, y: 5.2054796, z: 0.28391635}
+  m_Size: {x: 7.3578935, y: 10.411013, z: 6.2998857}
+  m_Center: {x: -0.0225451, y: 5.2054796, z: -0.26987708}
 --- !u!1001 &1719972349
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -89916,6 +90341,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2 AIKA
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -90200,7 +90629,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.43499997, y: 1.0203788, z: 0.43500006}
   m_Center: {x: 0.000000014901161, y: 0.51019037, z: 0.000030443072}
@@ -90253,10 +90682,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1618000530}
-  - {fileID: 1206415822}
+  - {fileID: 93971026}
+  - {fileID: 228086984}
+  - {fileID: 1260380891}
+  - {fileID: 981689227}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &1734393656
@@ -90913,10 +91342,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 1584190054}
+  - {fileID: 94666571}
+  - {fileID: 41561574}
+  - {fileID: 1528217500}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1743403401 stripped
@@ -90972,8 +91401,8 @@ MonoBehaviour:
   - {fileID: 110803523}
   - {fileID: 1244285540}
   - {fileID: 1143081202}
-  speed: 4
-  rotationSpeed: 5
+  speed: 2.5
+  rotationSpeed: 2.5
 --- !u!1 &1743755159
 GameObject:
   m_ObjectHideFlags: 0
@@ -91085,6 +91514,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 65931629416169872, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.036875416
+      objectReference: {fileID: 0}
+    - target: {fileID: 65931629416169872, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.011988214
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
       propertyPath: m_Name
       value: 1 AIKA
@@ -91093,6 +91530,18 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[7]
       value: 
       objectReference: {fileID: 2100000, guid: 0b6d655ebf27848479a4d69abecaeeeb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
+    - target: {fileID: 8575165561914546611, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.036875416
+      objectReference: {fileID: 0}
+    - target: {fileID: 8575165561914546611, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.011988236
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -91103,6 +91552,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
       insertIndex: -1
       addedObject: {fileID: 504893223}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 504893226}
   m_SourcePrefab: {fileID: 100100000, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
 --- !u!1001 &1744880767
 PrefabInstance:
@@ -91863,7 +92315,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.43499997, y: 1.0203788, z: 0.43500006}
   m_Center: {x: 0.000000014901161, y: 0.51019037, z: 0.000030443072}
@@ -91953,7 +92405,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.43499997, y: 1.0203788, z: 0.43500006}
   m_Center: {x: 0.000000014901161, y: 0.51019037, z: 0.000030443072}
@@ -92054,6 +92506,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[7]
       value: 
       objectReference: {fileID: 2100000, guid: 0b6d655ebf27848479a4d69abecaeeeb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -92442,10 +92898,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
+  - {fileID: 1013961331}
+  - {fileID: 1664968348}
+  - {fileID: 1295089153}
+  - {fileID: 1079329891}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1777952568 stripped
@@ -92883,6 +93339,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[7]
       value: 
       objectReference: {fileID: 2100000, guid: 0b6d655ebf27848479a4d69abecaeeeb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -93249,10 +93709,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 282157677}
-  - {fileID: 1361768033}
+  - {fileID: 1295089153}
+  - {fileID: 1079329891}
+  - {fileID: 1013961331}
+  - {fileID: 1664968348}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1789714943 stripped
@@ -93335,7 +93795,7 @@ Transform:
   m_GameObject: {fileID: 1792830534}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -150.385, y: 31.0945, z: -1.0783386}
+  m_LocalPosition: {x: -150.385, y: 30.56, z: -1.0783386}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -93369,7 +93829,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1792830534}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -93791,10 +94251,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
+  - {fileID: 538853419}
+  - {fileID: 269956503}
+  - {fileID: 1954027400}
+  - {fileID: 652000106}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &1801977203
@@ -93849,6 +94309,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2 AIKA (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -93989,6 +94453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2 AIKA (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -94575,8 +95043,8 @@ MonoBehaviour:
   - {fileID: 1244285540}
   - {fileID: 1143081202}
   - {fileID: 1362127176}
-  speed: 4
-  rotationSpeed: 5
+  speed: 2.5
+  rotationSpeed: 2.5
 --- !u!1 &1820442263 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 10038fdbf93c4dd43af9ce774d03a956, type: 3}
@@ -94626,10 +95094,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 228086984}
+  - {fileID: 1260380891}
+  - {fileID: 981689227}
+  - {fileID: 93971026}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &1821383371
@@ -95125,6 +95593,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[7]
       value: 
       objectReference: {fileID: 2100000, guid: 0b6d655ebf27848479a4d69abecaeeeb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -96062,7 +96534,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.43499997, y: 1.0203788, z: 0.43500006}
   m_Center: {x: 0.000000014901161, y: 0.51019037, z: 0.000030443072}
@@ -96233,8 +96705,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 11.218782, y: 6.499003, z: 10.571993}
-  m_Center: {x: 0.000011920933, y: 3.2494767, z: 0.3619928}
+  m_Size: {x: 11.218782, y: 6.499003, z: 9.219764}
+  m_Center: {x: 0.0000119335355, y: 3.2494767, z: -0.3141222}
 --- !u!1 &1855693753 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e614a04d57dbf0349a641ea286010126, type: 3}
@@ -96517,6 +96989,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3 AIKA (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -96866,6 +97342,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2 AIKA (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -96929,6 +97409,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3 AIKA
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -97647,7 +98131,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.43499997, y: 1.0203788, z: 0.43500006}
   m_Center: {x: -0.0000076144934, y: 0.51019037, z: 0.000030443072}
@@ -97700,10 +98184,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 652000106}
+  - {fileID: 538853419}
+  - {fileID: 269956503}
+  - {fileID: 1954027400}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1894687076 stripped
@@ -97755,10 +98239,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 506312404}
+  - {fileID: 1792830535}
+  - {fileID: 1522603772}
+  - {fileID: 1566270460}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1895808652
@@ -98155,6 +98639,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pico_chan_chr_pico_00 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 10038fdbf93c4dd43af9ce774d03a956, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -98836,10 +99324,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 262767519}
+  - {fileID: 2106663565}
+  - {fileID: 1163280314}
+  - {fileID: 1672364714}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1918084116
@@ -99030,8 +99518,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 12.999999, y: 16.928885, z: 13.065446}
-  m_Center: {x: -0.000021457674, y: 8.464442, z: 0.47563595}
+  m_Size: {x: 13.000012, y: 16.928885, z: 10.750513}
+  m_Center: {x: -0.000021485035, y: 8.464442, z: -0.6818299}
 --- !u!1001 &1924609145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -99084,6 +99572,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     - target: {fileID: 13700000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -99437,10 +99929,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
+  - {fileID: 27186288}
+  - {fileID: 267408164}
+  - {fileID: 486283099}
+  - {fileID: 904802293}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1936084052 stripped
@@ -99611,6 +100103,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     - target: {fileID: 13700000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -100590,7 +101086,7 @@ Transform:
   m_GameObject: {fileID: 1954027399}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -46.955, y: 31.0945, z: 41.811646}
+  m_LocalPosition: {x: -46.955, y: 30.56, z: 41.811646}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -100624,7 +101120,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1954027399}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -100689,7 +101185,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.43499997, y: 1.0203788, z: 0.43500006}
   m_Center: {x: 0.000000014901161, y: 0.51019037, z: 0.000030443072}
@@ -100742,10 +101238,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1601776653}
-  - {fileID: 1956672504}
+  - {fileID: 94666571}
+  - {fileID: 41561574}
+  - {fileID: 1528217500}
+  - {fileID: 1584190054}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1956672503 stripped
@@ -100797,10 +101293,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 1584190054}
+  - {fileID: 94666571}
+  - {fileID: 41561574}
+  - {fileID: 1528217500}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1957687234
@@ -101184,10 +101680,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 1163280314}
+  - {fileID: 1672364714}
+  - {fileID: 262767519}
+  - {fileID: 2106663565}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &1965844929
@@ -101619,8 +102115,8 @@ MonoBehaviour:
   - {fileID: 1362127176}
   - {fileID: 110803523}
   - {fileID: 1244285540}
-  speed: 4
-  rotationSpeed: 5
+  speed: 2.5
+  rotationSpeed: 2.5
 --- !u!1 &1974572903
 GameObject:
   m_ObjectHideFlags: 0
@@ -101998,10 +102494,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 1163280314}
+  - {fileID: 1672364714}
+  - {fileID: 262767519}
+  - {fileID: 2106663565}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &1983486450
@@ -102687,10 +103183,10 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
-  m_Size: {x: 2.7467532, y: 6.019949, z: 0.6}
-  m_Center: {x: 1.1135731, y: 3.0100164, z: -0.019726425}
+  m_Size: {x: 0.5621412, y: 6.019949, z: 0.6}
+  m_Center: {x: 0.021267056, y: 3.0100164, z: -0.019726425}
 --- !u!1 &1999666964 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 694e1313d3f12e84aaf959ff6960ddaf, type: 3}
@@ -102957,6 +103453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pico_chan_chr_pico_00 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 10038fdbf93c4dd43af9ce774d03a956, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -103652,6 +104152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3 AIKA (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -103749,7 +104253,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.43499997, y: 1.0203788, z: 0.43500006}
   m_Center: {x: -0.0000076144934, y: 0.51019037, z: 0.000030443072}
@@ -103917,7 +104421,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.43499997, y: 1.0203788, z: 0.43500006}
   m_Center: {x: 0.000000014901161, y: 0.51019037, z: 0.000030443072}
@@ -104533,8 +105037,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 11.218785, y: 9.757901, z: 10.353149}
-  m_Center: {x: 0.03484392, y: 4.878179, z: -0.19553113}
+  m_Size: {x: 11.218785, y: 9.757901, z: 9.246013}
+  m_Center: {x: 0.034844045, y: 4.878179, z: -0.74909925}
 --- !u!1 &2035436817 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: f63e675fe3b6b9646beb49d9dd3e30ba, type: 3}
@@ -105151,6 +105655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3 AIKA (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -105621,10 +106129,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
+  - {fileID: 269956503}
+  - {fileID: 1954027400}
+  - {fileID: 652000106}
+  - {fileID: 538853419}
   speed: 4
   rotationSpeed: 5
 --- !u!1 &2057614917 stripped
@@ -105656,8 +106164,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 19.375298, y: 7.0017276, z: 12.457808}
-  m_Center: {x: -0.32732582, y: 3.5000346, z: 0.15605855}
+  m_Size: {x: 18.23778, y: 7.0017276, z: 12.457808}
+  m_Center: {x: 0.24143314, y: 3.5000346, z: 0.15605831}
 --- !u!1001 &2060960265
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -105710,6 +106218,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4 AIKA (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c0205b681ae48a94c8fab219ba979b76, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -105771,8 +106283,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 0
   serializedVersion: 3
-  m_Size: {x: 2.7467527, y: 6.019949, z: 0.59999996}
-  m_Center: {x: 1.1135423, y: 3.0100164, z: -0.019756941}
+  m_Size: {x: 0.63275516, y: 6.019949, z: 0.59999996}
+  m_Center: {x: 0.05654358, y: 3.0100164, z: -0.019757}
 --- !u!1001 &2063898967
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -108292,7 +108804,7 @@ Transform:
   m_GameObject: {fileID: 2106663564}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 73.21234, y: 31.0945, z: 82.18979}
+  m_LocalPosition: {x: 73.21234, y: 30.56, z: 82.18979}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -108326,7 +108838,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2106663564}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -108421,6 +108933,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     - target: {fileID: 13700000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -108550,7 +109066,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.43499997, y: 1.0203788, z: 0.43500006}
   m_Center: {x: 0.000000014901161, y: 0.51019037, z: 0.000030443072}
@@ -108725,8 +109241,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 7.357892, y: 10.411013, z: 7.4074717}
-  m_Center: {x: -0.022545096, y: 5.2054796, z: 0.2838963}
+  m_Size: {x: 7.3579125, y: 10.411013, z: 6.029417}
+  m_Center: {x: -0.02254508, y: 5.2054796, z: -0.40513086}
 --- !u!1001 &2118199378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -109194,8 +109710,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 0
   serializedVersion: 3
-  m_Size: {x: 2.5291183, y: 6.427493, z: 0.59999996}
-  m_Center: {x: 1.0047072, y: 3.2137442, z: -0.0012192576}
+  m_Size: {x: 0.6196795, y: 6.427493, z: 0.59999996}
+  m_Center: {x: 0.04998785, y: 3.2137442, z: -0.0012193293}
 --- !u!1001 &2127817531
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -109589,10 +110105,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1143081202}
-  - {fileID: 1362127176}
-  - {fileID: 110803523}
-  - {fileID: 1244285540}
+  - {fileID: 1079329891}
+  - {fileID: 1013961331}
+  - {fileID: 1664968348}
+  - {fileID: 1295089153}
   speed: 4
   rotationSpeed: 5
 --- !u!1001 &2139374037
@@ -109647,6 +110163,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     - target: {fileID: 13700000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -109918,7 +110438,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.43499997, y: 1.0203788, z: 0.43500006}
   m_Center: {x: 0.000000014901161, y: 0.51019037, z: 0.000030443072}
@@ -111069,3 +111589,4 @@ SceneRoots:
   - {fileID: 601380298}
   - {fileID: 2050079555}
   - {fileID: 1335938943}
+  - {fileID: 1554101099}
